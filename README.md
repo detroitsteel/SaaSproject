@@ -4,7 +4,10 @@
 #
 #1. Navigate to Project Folder in terminal
 ##$ cd ~/PycharmProjects/UofMProject
-#2. Start virtual environment
+#2. Install or Sync virtual environment
+##$ pipenv install
+##$ pipenv sync
+#3. Start virtual environment
 ##$ pipenv shell
 #3. Execute the bootup script within the virtual environment
 ##$ ./bootstrap.sh
