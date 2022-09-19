@@ -18,6 +18,7 @@ RUN pip3 install -r requirements.txt pipenv
 RUN pipenv install --deploy --ignore-pipfile
 
 # Start app
+RUN chmod +x bootstrap.sh
 SHELL ["/bin/activate", "-c"]
 EXPOSE 5000
 ENTRYPOINT ["./bootstrap.sh"]
