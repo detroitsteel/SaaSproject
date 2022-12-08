@@ -2,7 +2,6 @@
 
 #
 #1. Navigate to Project Folder in terminal
-##$ cd ~/PycharmProjects/UofMProject
 #2. Install or Sync virtual environment
 ##$ pipenv install
 ##$ pipenv sync
@@ -12,19 +11,18 @@
 ##$ ./bootstrap.sh
 #4. Navigate to the desired URL from the three provided below
 ##http://127.0.0.1:5000/chartdatacsvpost/home/kxa/PycharmProjects/UofMProject/idlist.csv
-###URL For question 1.1 accepting the PATH location of a CSV of Ids as a URL parameter and returning data for the give Ids
+###URL For task 1.1 accepting the PATH location of a CSV list of Ids as a URL parameter and returning data for the give Ids
 ###The URL variable is the location of the CSV file to be parsed. 
 ###A sample CSV (idlist.csv) has been provided in the project folder
 ##http://127.0.0.1:5000/smdataqu
-###URL for question 1.2, accepts no parameters, and returns a summary of admissions grouped by Observation Type and Unit of Measure. This data object was returned from the database using a SQL query
+### The URL for task 1.2, accepts no parameters, and returns a summary of admissions grouped by Observation Type and Unit of Measure. This data object was returned from the database using a SQL query
 ##http://127.0.0.1:5000/smdatapd
-###URL for question 1.3, accepts no parameters, and returns a summary of admissions grouped by Observation Type and Unit of Measure. This data object was returned from the database using a SQL query to pull the data and pandas to filter and group the data.
+### The URL for task 1.3, accepts no parameters, and returns a summary of admissions grouped by Observation Type and Unit of Measure. This data object was returned from the database using a SQL query to pull the data and pandas to filter and group the data.
 
 #Challenge Part 2
 #Summary
 
 #1. Navigate to Project Folder in terminal
-##$ cd ~/PycharmProjects/UofMProject
 #2. Install or Sync virtual environment
 ##$ pipenv install
 ##$ pipenv sync
